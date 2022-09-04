@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Baloo+2&family=Baloo+Bhai+2&family=BioRhyme:wght@300&family=Cinzel+Decorative&family=Eczar&family=Krona+One&family=Space+Mono&family=Syne&family=Ubuntu:wght@300&family=Viaoda+Libre&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body{
+  background: ;
+  font-family: 'Syne', sans-serif;
+}
+
+.logo{
+  width: 50%;
+  display: block;
+  margin: 5px auto;;
+}
+
+.btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.btn > button{
+  background: blue;
+  color: white;
+  border: none;
+  height: 40px;
+  border-radius: 3px;
+  width: 130px;
+}
